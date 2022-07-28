@@ -5,8 +5,8 @@ services:
   - docker
 
 before_install:
-  - docker build -t vbundalo/docker-react -f Dockerfile.dev .
+  - docker build -t sandravlado/docker-react -f Dockerfile.dev .
 
 script:
-  - docker run -e CI=true vbundalo/docker-react npm run test -- --coverage
+  - docker run -e CI=true sandravlado/docker-react npm run test -- --coverage
 
