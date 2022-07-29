@@ -14,7 +14,7 @@ function App() {
           className="App-intro">
           I was changed!
           Learn React!
-          Another one bites the dust!
+          You'll never walk alone!
         </a> 
       </header>
     </div>
